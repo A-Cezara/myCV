@@ -1,0 +1,162 @@
+/*Our App*/
+:root {
+  --text-color: #002c45;
+  --main-blue-color: #6ca8da;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f6f6fa;
+  color: var(--text-color);
+  line-height: 171.429%;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+.headers {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*Sidebar Styles*/
+.sidebar-section {
+  background-color: var(--main-blue-color);
+}
+.sidebar-image {
+  margin-top: 40px;
+}
+.contacts-container {
+  padding-left: 40px;
+}
+
+.contacts-item {
+  font-weight: 700;
+}
+.contacts-phone {
+  color: #ab3717;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.contacts-email {
+  color: #ab3717;
+  text-decoration-line: underline;
+  margin-left: 10px;
+}
+.contacts-element {
+  margin-top: -12px;
+}
+.tech-skills-section {
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.tech-skills-list {
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.soft-skills-section {
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.soft-skills-list {
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+/*Main content Styles*/
+
+.right-side-container {
+  padding: 80px 40px 180px 88px;
+}
+
+.about-me-name {
+  font-size: 45px;
+  line-height: normal;
+  margin-top: -10px;
+}
+.about-me-description {
+  margin-top: -15px;
+}
+.projects-section {
+  margin-top: 40px;
+}
+
+.projects-list {
+  font-weight: 700;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+.project-name {
+  color: #ab3717;
+  font-weight: 400;
+  line-height: 171.429%;
+  text-decoration-line: underline;
+}
+.project-info {
+  font-weight: 400;
+}
+.work-experience-section {
+  margin-top: 40px;
+}
+
+.company-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.company-info {
+  color: #ab3717;
+  margin-left: 10px;
+}
+.company-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -10px;
+}
+.company-elements-list {
+  margin-left: -15px;
+  margin-top: -5px;
+}
+.company-container {
+  margin-top: -10px;
+}
+
+.school-name {
+  color: #6ca8da;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.school-title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -10px;
+}
+.school-info {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -10px;
+}
+.school-contaner {
+  margin-top: -10px;
+}
